@@ -13,7 +13,7 @@
 			</div>
 			<div class="comments-link">
 				<?php if ( comments_open() && is_single() ) { ?>
-				<?php comments_popup_link( '<span class="leave-reply button  small square-button" title="' . __( 'Leave a reply', 'smartlib' ) . '"><i class="icon-comment"></i></span>', __( '1 Reply', 'smartlib' ), __( '% Replies', 'smartlib' ) ); ?>
+				<?php comments_popup_link( '<span class="leave-reply button  small square-button" title="' . __( 'Leave a reply', 'smartlib' ) . '"><i class="icon-comment"></i></span>', __( '1 Reply', 'smartlib' ), __( '%s Replies', 'smartlib' ) ); ?>
 				<?php } ?>
 			</div>
 			<div class="image-column">

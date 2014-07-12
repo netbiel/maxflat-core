@@ -1091,7 +1091,7 @@ class project_Customize_Range_Control extends WP_Customize_Control {
             ?>
         <li id="maxflat_customize_layout_placeholder" class="maxflat_customize_layout_placeholder">
             <div class="smartlib-form-proversion-info-outer">
-                <div class="smartlib-form-proversion-info-inner"><a href="<?php _e('http://netbiel.pl/maxflat', 'maxflat') ?>" target="_blank" class="maxflat-proversion-link"><?php _e('Available in pro version &#187;', 'maxflat');?></a></div>
+                <div class="smartlib-form-proversion-info-inner"><a href="http://www.mojo-themes.com/item/maxflat-fully-responsive-flat-design-theme-for-blog-or-small-magazine/" target="_blank" class="maxflat-proversion-link"><?php _e('Available in pro version &#187;', 'maxflat');?></a></div>
                 <div class="smartlib-color-readonly-image"></div>
             </div>
         <?php

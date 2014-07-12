@@ -316,7 +316,7 @@ class Smart_Widget_One_Author extends Smart_Core_Widget {
 					 type="text"
 					 value="<?php echo $title; ?>" /></label>
 	</p>
-	<p><label for="<?php echo $this->get_field_id( 'user_id' ); ?>"><?php _e( 'Authot Name:', 'maxflat'); ?>
+	<p><label for="<?php echo $this->get_field_id( 'user_id' ); ?>"><?php _e( 'Author Name:', 'maxflat'); ?>
 		<select id="<?php echo $this->get_field_id( 'user_id' ); ?>"
 						name="<?php echo $this->get_field_name( 'user_id' ); ?>" value="<?php echo $user_id; ?>">
 			<?php
@@ -445,7 +445,7 @@ class Smart_Widget_Social_Icons extends Smart_Core_Widget {
 	</p>
 
 	<p>
-		<label for="<?php echo $this->get_field_id( 'youtube' ); ?>"><?php _e( 'Youtube:', 'maxflat'); ?>
+		<label for="<?php echo $this->get_field_id( 'youtube' ); ?>"><?php _e( 'YouTube:', 'maxflat'); ?>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'youtube' ); ?>" name="<?php echo $this->get_field_name( 'youtube' ); ?>" type="text" value="<?php echo $form_values['youtube']; ?>" /></label>
 	</p>
 
